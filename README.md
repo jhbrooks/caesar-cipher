@@ -1,2 +1,2 @@
 # caesar-cipher
-Caeser cipher implementation in Ruby
+Caesar cipher implementation in Ruby
