@@ -11,8 +11,3 @@ def caesar_cipher(input_string, shift_num)
 		letter.ord.-(adjustment).+(shift_num).%(26).+(adjustment).chr
 	end
 end
-
-puts caesar_cipher("Hello, world!", 2)
-puts caesar_cipher("Hello, world!", -1)
-puts caesar_cipher(".AZ.az.", 27)
-puts caesar_cipher(".AZ.az.", -28)
